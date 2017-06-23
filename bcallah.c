@@ -1,6 +1,6 @@
 /* Public Domain */
-#include <stdio.h>
-#define d putchar(*b)
+#include <unistd.h>
+#define d write(1,b,1)
 #define p while(*b){
 #define q ++*b
 #define u --*b
