@@ -1,16 +1,15 @@
 /* Public Domain */
 #include <unistd.h>
-#define d write(1,b,1)
-#define p while(*b){
-#define q ++*b
-#define u --*b
-static char c[3];int main(void){char*b=c;q;q;q;q;q;q;q;q;q;p++b;q;q;q;q;q
-;q;q;q;q;q;q;--b;u;}++b;u;d;q;d;u;u;d;--b;q;q;q;q;p++b;q;q;q;--b;u;}++b;u
-;d;d;--b;q;q;q;q;p++b;u;u;u;--b;u;}++b;q;d;--b;q;q;p++b;q;q;q;--b;u;}++b;
-q;d;--b;q;q;q;q;q;q;q;q;p++b;++b;q;q;q;q;q;q;q;q;--b;--b;u;}++b;++b;d;--b
-;q;q;q;q;q;q;q;d;q;d;--b;q;q;q;p++b;u;u;u;--b;u;}++b;u;u;d;--b;q;q;q;p++b
-;q;q;q;--b;u;}++b;d;--b;q;q;q;p++b;u;u;u;u;--b;u;}++b;d;--b;q;q;q;q;p++b;
-q;q;q;q;--b;u;}++b;q;d;--b;q;q;q;p++b;u;u;u;u;u;--b;u;}++b;d;--b;q;q;q;q;
-p++b;++b;u;u;u;u;--b;--b;u;}++b;++b;u;u;d;--b;--b;q;q;q;p++b;q;q;q;--b;u;
-}++b;q;q;d;q;q;q;d;--b;q;q;q;p++b;u;u;u;--b;u;}++b;u;u;d;--b;q;q;q;q;q;q;
-q;q;q;q;d;return 0;}
+#define b ++*p
+#define d write(1,p,1)
+#define q while(*p){++p
+#define o --*p
+#define u --p
+static char c[3];int main(void){char*p=c;b;b;b;b;b;b;b;b;b;q;b;b;b;b;b;b;
+b;b;b;b;b;u;o;}++p;o;d;b;d;o;o;d;u;b;b;b;b;q;b;b;b;u;o;}++p;o;d;d;u;b;b;b
+;b;q;o;o;o;u;o;}++p;b;d;u;b;b;q;b;b;b;u;o;}++p;b;d;u;b;b;b;b;b;b;b;b;q;++
+p;b;b;b;b;b;b;b;b;u;u;o;}++p;++p;d;u;b;b;b;b;b;b;b;d;b;d;u;b;b;b;q;o;o;o;
+u;o;}++p;o;o;d;u;b;b;b;q;b;b;b;u;o;}++p;d;u;b;b;b;q;o;o;o;o;u;o;}++p;d;u;
+b;b;b;b;q;b;b;b;b;u;o;}++p;b;d;u;b;b;b;q;o;o;o;o;o;u;o;}++p;d;u;b;b;b;b;q
+;++p;o;o;o;o;u;u;o;}++p;++p;o;o;d;u;u;b;b;b;q;b;b;b;u;o;}++p;b;b;d;b;b;b;
+d;u;b;b;b;q;o;o;o;u;o;}++p;o;o;d;u;b;b;b;b;b;b;b;b;b;b;d;return 0;}
